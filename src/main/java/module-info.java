@@ -3,4 +3,5 @@ module com.example.sudokudesktopapp {
     requires javafx.fxml;
     requires javafx.controls;
 
+    exports com.example.sudokudesktopapp;
 }

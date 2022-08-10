@@ -1,12 +1,9 @@
 package com.example.sudokudesktopapp;
 
-import com.example.sudokudesktopapp.computationlogic.SudokuBuildLogic;
+import com.example.sudokudesktopapp.buildlogic.SudokuBuildLogic;
 import com.example.sudokudesktopapp.userinterface.IUserInterfaceContract;
 import com.example.sudokudesktopapp.userinterface.UserInterfaceImpl;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -24,6 +21,7 @@ public class SudokuApplication extends Application{
             e.printStackTrace();
             throw e;
         }
+
     }
     public static void main(String[] args){
         launch(args);
